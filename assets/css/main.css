@@ -3337,6 +3337,11 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+		/* Carousel */
+			.carrousel li q {
+				font-size: 1.0em;
+			}
+
 	}
 
 /* Small */
@@ -3482,6 +3487,14 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
+		/* Carousel */
+			.carrousel {
+			  height: 450px;
+			}
+			.carrousel li q {
+
+			}
+
 	}
 
 /* XSmall */
@@ -3544,6 +3557,14 @@ input, select, textarea {
 			input[type="button"],
 			.button {
 				padding: 0;
+			}
+
+		/* Carousel */
+			.carrousel {
+			  height: 450px;
+			}
+			.carrousel li q {
+
 			}
 
 	}
